@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap');
+
+*{
+  font-family: "Montserrat", sans-serif;
+  margin:0;
+  padding:0;
+}
+
+.container{
+  height: 100vh;
+  width:100%;
+  background-image: url('images/background.png');
+  background-position: CENTER;
+  background-size: COVER;
+  Padding-left: 5%;
+  padding-right:5%;
+  box-sizing: border-box;
+  position:relative;
+}
+
+/** page1 **/
+.logo{
+  cursor: pointer;
+}
+.navbar{
+  width:100%;
+  height: 20vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+nav{
+  flex:1;
+  padding-left: 60px;
+  font-size: 25px;
+}
+
+nav, ul, li, button, button1, boxed,h1{
+  font-family: "Montserrat", sans-serif;
+  display: inline-block;
+  list-style: none;
+  margin:0px 20px;
+
+}
+
+nav ul li a{
+text-decoration: none;
+color: #333;
+}
+
+nav li a:hover{
+  color: #6a6b9e;
+}
+
+
+button{
+  color:white;
+  padding: 10px 15px;
+  background-color: #6a6b9e;
+  border: none;
+  border-radius: 50px;
+  cursor:pointer;
+  transition: all 0.3s ease 0s; 
+  font-size: 20px;
+}
+
+button:hover{
+    background-color: #f093afad;
+    color: #11125c;
+}
+
+.content h1{
+  line-height: 70px;
+  font-size: 40px;
+  font-weight: 6000;
+  margin-top: 140px;
+  margin-left:100px;
+  color: #11125c;
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  /*margin can change position of the content*/
+}
+
+.p1cat{
+  height: 80%;
+  position: absolute;
+  top: 127px;
+  right: 0px;
+}
+
+button1{
+  color:#11125c;
+  padding: 15px 20px;
+  background-color:#f093afad;
+  border: solid;
+  border-radius: 50px;
+  cursor:pointer;
+  transition: all 0.3s ease 0s; 
+  font-size: 30px;
+  margin-top: 30px;
+  margin-left:100px;
+}
+
+button1:hover{
+    background-color: #11125c;
+    color: #f093afad;
+}
+
+/** page2 **/
+.container2{
+  height: 100vh;
+  width:100%;
+  background-image: url('images/background2.png');
+  background-position: CENTER;
+  background-size: COVER;
+  Padding-left: 5%;
+  padding-right:5%;
+  box-sizing: border-box;
+  position:relative;
+}
+
+
+.p2header{
+line-height: 18px;
+margin-top: 50px;
+}
+.p2header h2{
+  color:#f093afad;
+}
+.p2header h1{
+  color:#a84880;
+}
+
+
+/**form**/
+.wrapper{
+  position: abosolute;
+  top:50%;
+  transform: translateY(-50%);
+  width: 100%;
+  padding: 0 20px;
+  margin-top: 230px;
+  margin-left: 110px;
+}
+
+.contact-form{
+max-width:550px;
+margin: 0 auto;
+display: flex;
+box-shadow: 0 0 10px rgba(0,0,0,0);
+}
+
+.input-fields{
+  display: flex;
+  flex-direction: column;
+  margin-right: 4%;
+}
+
+.input-fields,
+.msg{
+  width: 48%;
+}
+
+.input-fields .input, 
+.msg textarea{
+  margin: 10px;
+  background: transparent;
+  border: 0;
+  border-bottom:  0.5px solid #11125c;
+  padding: 8px;
+  color:#11125c;
+  width:100%;
+}
+
+button2{
+  color:white;
+  padding: 10px 15px;
+  background-color: #11125c;
+  border: none;
+  border-radius: 50px;
+  cursor:pointer;
+  transition: all 0.3s ease 0s; 
+  font-size: 20px;
+margin-left: 250px;
+
+}
+
+button2:hover{
+    background-color: #f093afad;
+    color: #11125c;
+}
+
+
+/** page3 **/
+.boxed {
+  box-sizing: content-box;  
+  width: 450px;
+  border-radius: 30px;
+  height: 270px;
+  padding: 30px;  
+  border: 3px solid #11125c;
+  margin-top: 60px;
+  margin-left: 325px;
+  background: #f093afad;
+}
+
+.boxed h1{
+  font-family: "Montserrat", sans-serif;
+  color: #11125c
+}
+.boxed p{
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  position: center;
+}
+
+.header1{
+  font-family: "Montserrat", sans-serif;
+  color: #11125c;
+  margin-top: 20px;
+}
+
+/** page4 **/
+.header2{
+  font-family: "Montserrat", sans-serif;
+  color: #11125c;
+  margin-top: 30px;
+  font-size: 2rem;
+}
+.p1{
+  font-family: "Montserrat", sans-serif;
+  color:black;
+  margin-top: 20px;
+  margin-left :150px;
+  margin-right: 150px;
+  line-height: 2;
+}
+
+h2 {
+	font-size: 2rem;
+	line-height: 1.25;
+	letter-spacing: -.1rem;
+  }
+
+
+/** page5 **/
+.cat p{
+  text-align: left;
+  font-weight: 300;
+  line-height: 25px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+button5{
+  color:white;
+  padding: 10px 15px;
+  background-color: #11125c;
+  border: none;
+  border-radius: 50px;
+  cursor:pointer;
+  transition: all 0.3s ease 0s; 
+  font-size: 20px;
+margin-left: 500px;
+
+}
+
+button5:hover{
+    background-color: #f093afad;
+    color: #11125c;
+}
